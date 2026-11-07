@@ -1,2 +1,12 @@
-ID,Title,Author,Year,Format,File
-1,Panduan Website,Fazli,2026,PDF,ebook/Ebook.pdf
+ID,Title,Author,Year,Format,File,Source
+1,Panduan Website,Fazli,2026,PDF,ebook/Ebook.pdf,File tugas kelas
+2,Pride and Prejudice,Jane Austen,1813,PDF,ebook/02_Pride_and_Prejudice.pdf,https://www.gutenberg.org/ebooks/1342
+3,"Frankenstein; or, The modern Prometheus",Mary Wollstonecraft Shelley,1818,PDF,ebook/03_Frankenstein.pdf,https://www.gutenberg.org/ebooks/84
+4,Alice's Adventures in Wonderland,Lewis Carroll,1865,PDF,ebook/04_Alices_Adventures_in_Wonderland.pdf,https://www.gutenberg.org/ebooks/11
+5,The Adventures of Sherlock Holmes,Arthur Conan Doyle,1892,PDF,ebook/05_The_Adventures_of_Sherlock_Holmes.pdf,https://www.gutenberg.org/ebooks/1661
+6,The Time Machine,H. G. Wells,1895,PDF,ebook/06_The_Time_Machine.pdf,https://www.gutenberg.org/ebooks/35
+7,The Wonderful Wizard of Oz,L. Frank Baum,1900 (ditulis),PDF,ebook/07_The_Wonderful_Wizard_of_Oz.pdf,https://www.gutenberg.org/ebooks/55
+8,Dracula,Bram Stoker,1897,PDF,ebook/08_Dracula.pdf,https://www.gutenberg.org/ebooks/345
+9,The Strange Case of Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,1886,PDF,ebook/09_The_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde.pdf,https://www.gutenberg.org/ebooks/43
+10,The War of the Worlds,H. G. Wells,1895–1897 (ditulis),PDF,ebook/10_The_War_of_the_Worlds.pdf,https://www.gutenberg.org/ebooks/36
+11,Rangkuman Kuliah Tamu: Transforming Libraries Through Information Technology,Fazli Abbyaz Tafazul Kusuma,2026,PDF,ebook/11_Rangkuman_Kuliah_Tamu_Transforming_Libraries_Through_Information_Technology.pdf,PDF rangkuman yang diberikan untuk tugas
