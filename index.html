@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="Jelajahi koleksi perpustakaan digital: karya klasik dunia, panduan, dan bacaan teknologi.">
+  <title>Ruang Baca — Perpustakaan Digital</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#koleksi">Langsung ke koleksi</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Ruang Baca, beranda">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 7.8c4.3-1.6 8-.8 11 1.5v17c-3-2.3-6.7-3.1-11-1.5zM27 7.8c-4.3-1.6-8-.8-11 1.5v17c3-2.3 6.7-3.1 11-1.5z"/><path d="M16 9.3v17"/></svg></span>
+        <span class="brand-name">ruang<span>baca</span></span>
+      </a>
+      <nav aria-label="Navigasi utama">
+        <a class="nav-link active" href="#koleksi" aria-current="page">Koleksi</a>
+        <a class="nav-link" href="#tentang">Tentang</a>
+      </nav>
+      <a class="header-cta" href="#koleksi">Temukan bacaan <span aria-hidden="true">↘</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> PERPUSTAKAAN DIGITAL</p>
+          <h1 id="hero-title">Cerita baik,<br><em>selalu</em> menemukan jalan.</h1>
+          <p class="hero-description">Ruang kecil untuk ide-ide besar. Jelajahi karya klasik, panduan, dan bacaan pilihan—semuanya terbuka untukmu.</p>
+          <a class="hero-link" href="#koleksi">Jelajahi koleksi <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="sun"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="hero-book"><span class="book-spine"></span><span class="book-label">A GOOD<br>STORY<br><small>VOL. 01</small></span><span class="book-flower">✳</span></div>
+          <span class="art-note note-top">buka halamanmu</span><span class="art-note note-bottom">&nbsp; &nbsp; →</span>
+          <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✳</span>
+        </div>
+        <div class="hero-meta"><span>01 / RUANG UNTUK MEMBACA</span><span>DIKURASI DENGAN RASA INGIN TAHU</span></div>
+      </div>
+    </section>
+
+    <section class="collection-section" id="koleksi" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow section-eyebrow">PILIHAN UNTUKMU</p>
+          <h2 id="collection-title">Rak bacaan <span>kami</span></h2>
+        </div>
+        <p class="section-intro">Dari dunia yang belum pernah ada,<br>sampai gagasan yang mengubah dunia.</p>
+      </div>
+
+      <div class="collection-tools">
+        <label class="search-box" for="search-input">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.3 4.3"/></svg>
+          <input id="search-input" type="search" aria-label="Cari judul atau penulis" placeholder="Cari judul atau penulis..." autocomplete="off">
+          <kbd aria-hidden="true">⌘ K</kbd>
+        </label>
+        <div class="filter-group" role="group" aria-label="Saring jenis koleksi">
+          <button class="filter-button selected" type="button" data-filter="all" aria-pressed="true">Semua <span>11</span></button>
+          <button class="filter-button" type="button" data-filter="fiksi" aria-pressed="false">Fiksi klasik</button>
+          <button class="filter-button" type="button" data-filter="panduan" aria-pressed="false">Panduan &amp; teknologi</button>
+        </div>
+      </div>
+      <p id="results-status" class="results-status" aria-live="polite">Menampilkan 11 bacaan</p>
+
+      <div class="book-grid" id="book-grid">
+        <article class="book-card cover-sage" data-category="panduan" data-search="panduan website fazli 2026">
+          <div class="cover cover-guide" aria-hidden="true"><span class="cover-tag">RUANG BACA · NO. 01</span><span class="cover-symbol">↗</span><span class="cover-title">Panduan<br>Website</span><span class="cover-byline">MULAI DARI SINI</span></div>
+          <div class="book-info"><p class="book-category">PANDUAN <span>·</span> 2026</p><h3>Panduan Website</h3><p class="book-author">Fazli</p><a class="read-link" href="ebook/Ebook.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-rose" data-category="fiksi" data-search="pride and prejudice jane austen 1813">
+          <div class="cover cover-pride" aria-hidden="true"><span class="cover-tag">JANE AUSTEN</span><span class="cover-ornament">❧</span><span class="cover-title">Pride &amp;<br>Prejudice</span><span class="cover-byline">A NOVEL</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1813</p><h3>Pride and Prejudice</h3><p class="book-author">Jane Austen</p><a class="read-link" href="ebook/02_Pride_and_Prejudice.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-blue" data-category="fiksi" data-search="frankenstein or the modern prometheus mary wollstonecraft shelley 1818">
+          <div class="cover cover-frankenstein" aria-hidden="true"><span class="cover-tag">MARY SHELLEY</span><span class="cover-moon"></span><span class="cover-title">Frankenstein</span><span class="cover-byline">THE MODERN PROMETHEUS</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1818</p><h3>Frankenstein; or, The modern Prometheus</h3><p class="book-author">Mary Wollstonecraft Shelley</p><a class="read-link" href="ebook/03_Frankenstein.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-yellow" data-category="fiksi" data-search="alice's adventures in wonderland lewis carroll 1865">
+          <div class="cover cover-alice" aria-hidden="true"><span class="cover-tag">LEWIS CARROLL</span><span class="cover-illustration">◒</span><span class="cover-title">Alice’s<br>Adventures</span><span class="cover-byline">IN WONDERLAND</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1865</p><h3>Alice's Adventures in Wonderland</h3><p class="book-author">Lewis Carroll</p><a class="read-link" href="ebook/04_Alices_Adventures_in_Wonderland.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-green" data-category="fiksi" data-search="the adventures of sherlock holmes arthur conan doyle 1892">
+          <div class="cover cover-sherlock" aria-hidden="true"><span class="cover-tag">ARTHUR CONAN DOYLE</span><span class="cover-illustration">⌕</span><span class="cover-title">Sherlock<br>Holmes</span><span class="cover-byline">THE ADVENTURES</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1892</p><h3>The Adventures of Sherlock Holmes</h3><p class="book-author">Arthur Conan Doyle</p><a class="read-link" href="ebook/05_The_Adventures_of_Sherlock_Holmes.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-lilac" data-category="fiksi" data-search="the time machine h. g. wells 1895">
+          <div class="cover cover-time" aria-hidden="true"><span class="cover-tag">H. G. WELLS</span><span class="cover-clock">◷</span><span class="cover-title">The Time<br>Machine</span><span class="cover-byline">A TIMELESS CLASSIC</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1895</p><h3>The Time Machine</h3><p class="book-author">H. G. Wells</p><a class="read-link" href="ebook/06_The_Time_Machine.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-orange" data-category="fiksi" data-search="the wonderful wizard of oz l. frank baum 1900 ditulis">
+          <div class="cover cover-oz" aria-hidden="true"><span class="cover-tag">L. FRANK BAUM</span><span class="cover-rainbow">⌁</span><span class="cover-title">The Wizard<br>of Oz</span><span class="cover-byline">A WONDERFUL STORY</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1900 (ditulis)</p><h3>The Wonderful Wizard of Oz</h3><p class="book-author">L. Frank Baum</p><a class="read-link" href="ebook/07_The_Wonderful_Wizard_of_Oz.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-dark" data-category="fiksi" data-search="dracula bram stoker 1897">
+          <div class="cover cover-dracula" aria-hidden="true"><span class="cover-tag">BRAM STOKER</span><span class="cover-moon"></span><span class="cover-title">Dracula</span><span class="cover-byline">A GOTHIC NOVEL</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1897</p><h3>Dracula</h3><p class="book-author">Bram Stoker</p><a class="read-link" href="ebook/08_Dracula.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-lime" data-category="fiksi" data-search="the strange case of dr. jekyll and mr. hyde robert louis stevenson 1886">
+          <div class="cover cover-jekyll" aria-hidden="true"><span class="cover-tag">R. L. STEVENSON</span><span class="cover-split">J / H</span><span class="cover-title">Jekyll<br>&amp; Hyde</span><span class="cover-byline">A STRANGE CASE</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1886</p><h3>The Strange Case of Dr. Jekyll and Mr. Hyde</h3><p class="book-author">Robert Louis Stevenson</p><a class="read-link" href="ebook/09_The_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-coral" data-category="fiksi" data-search="the war of the worlds h. g. wells 1895 1897 ditulis">
+          <div class="cover cover-war" aria-hidden="true"><span class="cover-tag">H. G. WELLS</span><span class="cover-orbit">◎</span><span class="cover-title">The War<br>of the Worlds</span><span class="cover-byline">A SCIENCE FICTION CLASSIC</span></div>
+          <div class="book-info"><p class="book-category">FIKSI KLASIK <span>·</span> 1895–1897 (ditulis)</p><h3>The War of the Worlds</h3><p class="book-author">H. G. Wells</p><a class="read-link" href="ebook/10_The_War_of_the_Worlds.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="book-card cover-teal" data-category="panduan" data-search="rangkuman kuliah tamu transforming libraries through information technology fazli abbyaz tafazul kusuma 2026">
+          <div class="cover cover-library" aria-hidden="true"><span class="cover-tag">CATATAN · 2026</span><span class="cover-illustration">▤</span><span class="cover-title">Transforming<br>Libraries</span><span class="cover-byline">THROUGH INFORMATION TECHNOLOGY</span></div>
+          <div class="book-info"><p class="book-category">PANDUAN &amp; TEKNOLOGI <span>·</span> 2026</p><h3>Rangkuman Kuliah Tamu: Transforming Libraries Through Information Technology</h3><p class="book-author">Fazli Abbyaz Tafazul Kusuma</p><a class="read-link" href="ebook/11_Rangkuman_Kuliah_Tamu_Transforming_Libraries_Through_Information_Technology.pdf" target="_blank" rel="noopener">Buka bacaan <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <p class="empty-state" id="empty-state" hidden>Belum ada bacaan yang cocok. Coba kata kunci lain.</p>
+    </section>
+
+    <section class="about-section" id="tentang" aria-labelledby="about-title">
+      <div class="about-mark" aria-hidden="true">✳</div>
+      <div><p class="eyebrow">SEDIKIT TENTANG RUANG INI</p><h2 id="about-title">Bacaan untuk semua,<br><em>tanpa batas.</em></h2></div>
+      <p class="about-copy">Perpustakaan digital ini menghadirkan bacaan dalam format PDF yang bisa dibuka langsung dari perangkatmu. Pilih cerita, ikuti rasa ingin tahu, dan selamat membaca.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="./"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 7.8c4.3-1.6 8-.8 11 1.5v17c-3-2.3-6.7-3.1-11-1.5zM27 7.8c-4.3-1.6-8-.8-11 1.5v17c3-2.3 6.7-3.1 11-1.5z"/><path d="M16 9.3v17"/></svg></span><span class="brand-name">ruang<span>baca</span></span></a>
+    <p>Dibuat untuk para pembaca dan pemimpi.</p>
+    <a class="back-top" href="#top">Kembali ke atas ↑</a>
+    <small>© <span id="footer-year">2026</span> · Berjalan di GitHub Pages</small>
+  </footer>
+</body>
+</html>
